@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("hour_cleaned.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/tirtasm/analisis-data-python-dicoding/refs/heads/main/dashboard/hour_cleaned.csv")
 
 def plot_weather_impact(data):
     fig, ax = plt.subplots(figsize=(8, 5))
